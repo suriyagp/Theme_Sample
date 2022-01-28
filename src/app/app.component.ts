@@ -13,7 +13,7 @@ export class AppComponent {
     disabled: false
   },{
     class: 'btn btn-secondary',
-    displayText: 'primary',
+    displayText: 'secondary',
     disabled: false
   },{
     class: 'btn',
@@ -22,7 +22,6 @@ export class AppComponent {
   }]
 
   catchEvent(event: string) {
-    console.log(event)
     window.alert(event)
   }
 }

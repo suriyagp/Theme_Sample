@@ -13,7 +13,6 @@ export class CustombuttonComponent implements OnInit {
   ngOnInit(): void {
   }
   onClickEvent(text:string) {
-    window.alert('click called');
     this.clickEmit.emit(text);
   }
 
