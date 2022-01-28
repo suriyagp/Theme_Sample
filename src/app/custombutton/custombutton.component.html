@@ -1,0 +1,5 @@
+<button type="button"
+          [ngClass]="button.class"
+          (click)="onClickEvent(button.displayText)" [disabled]= "button.disabled" >
+    {{ button.displayText | uppercase}}
+  </button>

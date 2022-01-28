@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'theme-demo';
+  buttonDetails = [{
+    class: 'btn btn-primary',
+    displayText: 'primary',
+    disabled: false
+  },{
+    class: 'btn btn-secondary',
+    displayText: 'primary',
+    disabled: false
+  },{
+    class: 'btn',
+    displayText: 'disabled',
+    disabled: true
+  }]
+
+  catchEvent(event: string) {
+    console.log(event)
+    window.alert(event)
+  }
 }

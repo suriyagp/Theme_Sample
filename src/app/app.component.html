@@ -2,9 +2,15 @@
 <div>
   <h5>Button Samples</h5>
 
-  <div>
+  <!-- <div>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn" disabled  >Disabled</button>
-  </div>
+  </div> -->
+
+  <span *ngFor="let eachButton of buttonDetails">
+    <app-custombutton [button]="eachButton"
+                (clickEmit)="catchEvent($event)">
+    </app-custombutton>
+  </span>
 </div>

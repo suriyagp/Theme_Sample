@@ -19,10 +19,12 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CustombuttonComponent } from './custombutton/custombutton.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustombuttonComponent
   ],
   imports: [
     BrowserModule,
