@@ -1,0 +1,24 @@
+button{
+    margin-left:10px;
+}
+.btn{
+    border-radius: 0;
+    font-weight: normal;
+}
+.btn-primary{
+    background-color: #008081;
+}
+.btn-secondary{
+    background-color: #ffffff;
+    color: black
+}
+.btn:disabled{
+    background-color: rgb(206, 206, 206);
+    box-shadow: none;
+}
+.btn-primary:hover{
+    background-color: #9fdedf;
+}
+.btn-primary:active{
+    background-color: darken(#008081,5%);
+}
